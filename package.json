@@ -1,0 +1,41 @@
+{
+  "name": "sails-hook-mlprciographql",
+  "version": "1.0.0",
+  "description": "A sails hook aimed at simplifying GraphQL integration.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/malpercio/sails-hook-mlprciographql.git"
+  },
+  "keywords": [
+    "graphql",
+    "sails",
+    "hook",
+    "wrapper"
+  ],
+  "author": "malpercio",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/malpercio/sails-hook-mlprciographql/issues"
+  },
+  "sails":{
+    "isHook": true,
+    "hookName": "graphql"
+  },
+  "homepage": "https://github.com/malpercio/sails-hook-mlprciographql#readme",
+  "dependencies": {
+    "debug": "^2.6.2",
+    "graphql": "^0.5.0",
+    "grunt": "^1.0.1",
+    "mocha": "^3.2.0",
+    "sails": "^0.12.13",
+    "sails-graphql": "0.0.4",
+    "supertest": "^3.0.0"
+  },
+  "devDependencies": {
+    "sails": "^0.12.13 "
+  }
+}
