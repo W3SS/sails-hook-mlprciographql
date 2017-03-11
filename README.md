@@ -1,3 +1,4 @@
+[![Stories in Ready](https://badge.waffle.io/malpercio/sails-hook-mlprciographql.png?label=ready&title=Ready)](https://waffle.io/malpercio/sails-hook-mlprciographql)
 # sails-hook-mlprciographql
 
 ## About
