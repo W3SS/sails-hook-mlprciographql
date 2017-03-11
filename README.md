@@ -7,5 +7,24 @@ A [sails](http://sailsjs.org/) hook aimed at simplifying GraphQL integration.
 ## Installation
 
 ```
-npm install git+https:https://github.com/malpercio/sails-hook-mlprciographql.git
+npm install --save sails-hook-mlprciographql
 ```
+
+## Usage
+
+After installing, (and configuring the database to your liking) you can summon ´sails.graphql´ to receive a [Promise](https://developer.mozilla.org/es/docs/Mozilla/JavaScript_code_modules/Promise.jsm/Promise) like so:
+
+´´´javascript
+//For the default controller
+index(req, res) {
+    sails.graphql(req)
+    .then((result) => {
+      //Very important statements
+      return res.json(result.data);
+    })
+    .catch((err)=>{
+      //Oops.
+      res.send(500, err);
+    });
+  }
+´´´
