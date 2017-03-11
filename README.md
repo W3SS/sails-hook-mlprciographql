@@ -1,4 +1,5 @@
 [![Stories in Ready](https://badge.waffle.io/malpercio/sails-hook-mlprciographql.png?label=ready&title=Ready)](https://waffle.io/malpercio/sails-hook-mlprciographql)
+
 # sails-hook-mlprciographql
 
 ## About
@@ -15,6 +16,7 @@ npm install --save sails-hook-mlprciographql
 After installing, (and configuring the database to your liking) you can summon ´sails.graphql´ to receive a [Promise](https://developer.mozilla.org/es/docs/Mozilla/JavaScript_code_modules/Promise.jsm/Promise) like so:
 
 ´´´javascript
+
 //For the default controller
 index(req, res) {
     sails.graphql(req)
@@ -27,4 +29,5 @@ index(req, res) {
       res.send(500, err);
     });
   }
+  
 ´´´
