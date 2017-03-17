@@ -1,6 +1,6 @@
 {
   "name": "sails-hook-mlprciographql",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A sails hook aimed at simplifying GraphQL integration.",
   "main": "index.js",
   "scripts": {
